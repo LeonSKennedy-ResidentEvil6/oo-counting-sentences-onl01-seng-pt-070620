@@ -21,5 +21,10 @@ class String
     binding.pry
 
 
+split(/[\s,']/)
+
+or
+
+
   end
 end
