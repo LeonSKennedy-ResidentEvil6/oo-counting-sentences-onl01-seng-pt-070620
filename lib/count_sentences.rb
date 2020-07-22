@@ -22,3 +22,11 @@ class String
 
   end
 end
+
+
+split(/[\s,']/)
+
+or
+
+"a,b'c d".split /\s|'|,/
+# => ["a", "b", "c", "d"]
