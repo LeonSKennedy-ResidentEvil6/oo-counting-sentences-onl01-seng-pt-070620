@@ -16,7 +16,7 @@ class String
 
   def count_sentences
    
-    self.split(". " | )
+    self.split(/". "/| )
     
     binding.pry
 
@@ -24,6 +24,9 @@ class String
 split(/[\s,']/)
 
 or
+
+"a,b'c d".split /\s|'|,/
+# => ["a", "b", "c", "d"]
 
 
   end
