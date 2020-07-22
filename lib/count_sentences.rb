@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     regex = /\s*(?:;|$)\s*/
-    self.split("!")
+    self.split()
 binding.pry
 
   end
