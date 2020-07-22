@@ -18,7 +18,6 @@ class String
    
     self.split(/[. ,! ,? ]/).reject { |s| s.empty? }
     
-    binding.pry
 
   end
 end
