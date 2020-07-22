@@ -16,7 +16,7 @@ class String
 
   def count_sentences
    
-    self.split(regex).count
+    self.split("! && ").count
 binding.pry
 
   end
