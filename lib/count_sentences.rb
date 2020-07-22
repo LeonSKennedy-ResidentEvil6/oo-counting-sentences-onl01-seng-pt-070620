@@ -24,7 +24,6 @@ class String
 end
 
 
-split(/[\s,']/)
 
 
 "a,b'c d".split /\s|'|,/
