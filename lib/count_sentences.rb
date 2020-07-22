@@ -20,14 +20,5 @@ class String
     
     binding.pry
 
-
-split(/[\s,']/)
-
-or
-
-"a,b'c d".split /\s|'|,/
-# => ["a", "b", "c", "d"]
-
-
   end
 end
